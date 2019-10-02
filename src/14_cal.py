@@ -27,7 +27,6 @@ yy = input("Input Year: ")
 mm = input("Input Month: ")
 
 if(yy == "") and (mm == ""):
-
     yy = datetime.now().year
     mm = datetime.now().month
     output = calendar.month(yy, mm)

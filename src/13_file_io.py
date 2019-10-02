@@ -18,8 +18,7 @@ file.close()
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-filename = ('bar.txt', 'x')
-fileA = open('filename','w')
-lines = [" Hello!", " How are you!", " Good Morning!"]
+fileA = open('bar.txt','w')
+lines = [" Hello!\n", " How are you!\n", " Good Morning!\n"]
 fileA.writelines(lines)
 fileA.close()
