@@ -3,5 +3,7 @@
 
 # YOUR CODE HERE
 
-answer = (2**65536)
-print(answer)
+x = 2
+y = 65536
+
+print(x**y)
