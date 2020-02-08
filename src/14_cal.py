@@ -39,9 +39,9 @@ elif (yy == "") and (mm.isdigit()):
     print(output)
 
 elif (yy.isdigit()) and (mm == ""):
-    yy = int(yy)
-    mm = datetime.now().month
-    output = calendar.month(yy, mm)
+    foo = int(yy)
+    fee = datetime.now().month
+    output = calendar.month(yy, fee)
     print(output)
 
 elif (yy.isdigit()) and (mm.isdigit()):
